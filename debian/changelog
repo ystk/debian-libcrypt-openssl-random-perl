@@ -1,3 +1,30 @@
+libcrypt-openssl-random-perl (0.04-2) unstable; urgency=low
+
+  * Team upload.
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ gregor herrmann ]
+  * Add new patch to fix a pod error.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * Switch to "3.0 (quilt)" source format.
+  * debian/rules: use three-line dh(1) variant.
+  * Remove remaining quilt fragments.
+  * debian/copyright: switch formatting to Copyright-Format 1.0.
+  * Use debhelper 9.20120312 to get all hardening flags.
+  * Improve short and long description.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 21 Feb 2014 19:18:23 +0100
+
 libcrypt-openssl-random-perl (0.04-1) unstable; urgency=low
 
   * Taking over maintenance on request of maintainer.

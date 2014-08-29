@@ -1,11 +1,18 @@
---- libcrypt-openssl-random-perl.orig/Makefile.PL
-+++ libcrypt-openssl-random-perl/Makefile.PL
-@@ -5,7 +5,7 @@
+Description: do not include -lssl in LIBS
+Origin: vendor
+Forwarded: no
+Author: Damyan Ivanov <dmn@debian.org>
+Reviewed-by: gregor herrmann <gregoa@debian.org>
+Last-Update: 2014-02-21
+
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -5,7 +5,7 @@ WriteMakefile(
      'NAME'		=> 'Crypt::OpenSSL::Random',
      'VERSION_FROM'	=> 'Random.pm', # finds $VERSION
      'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
 -    'LIBS'	        => ['-lssl -lcrypto'],   # e.g., '-lm' 
-+    'LIBS'	        => ['-lcrypto'],   # e.g., '-lm' 
++    'LIBS'	        => ['-lcrypto'],   # e.g., '-lm'
      'DEFINE'		=> '', # e.g., '-DHAVE_SOMETHING'
      'INC'		=> '', # e.g., '-I/usr/include/other'
  );

@@ -1,25 +1,34 @@
-This package was debianized by Luk Claes <luk@debian.org> on
-Mon, 15 May 2006 04:40:52 +0200.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://metacpan.org/release/Crypt-OpenSSL-Random
+Upstream-Contact: Ian Robertson <iroberts+perl@red-bean.com>
+Upstream-Name: Crypt-OpenSSL-Random
 
-It was downloaded from <http://search.cpan.org/dist/Crypt-OpenSSL-Random/>.
+Files: *
+Copyright: Ian Robertson, iroberts@cpan.com
+License: Artistic or GPL-1+
+Comment: The upstream distribution does not contain an explicit statement of
+ copyright ownership. Pursuant to the Berne Convention for the Protection of
+ Literary and Artistic Works, it is assumed that all content is copyright by
+ its respective authors unless otherwise stated.
 
-Copyright Holder: Ian Robertson <iroberts@cpan.org>
+Files: debian/*
+Copyright: 2006, Luk Claes <luk@debian.org>
+ 2008, 2014, gregor herrmann <gregoa@debian.org>
+ 2008, Damyan Ivanov <dmn@debian.org>
+License: Artistic or GPL-1+
 
-According to the Changes file, the years of copyright are 2001,2007
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
 
-License:
-
-	This module is free software; you may redistribute it and/or modify it
-	under the same terms as Perl itself.
-
-	At the moment this is either
-	
-	a) the GNU General Public License as published by the Free Software
-	   Foundation; either version 1, or (at your option) any later
-	   version, or
-
-	b) the "Artistic License" which comes with Perl.
-
-On Debian GNU/Linux systems, the complete text of the GNU General Public License
-can be found in '/usr/share/common-licenses/GPL' and the Artistic Licence in
-'/usr/share/common-licenses/Artistic'.
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

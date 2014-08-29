@@ -3,15 +3,15 @@ Section: perl
 Priority: optional
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Damyan Ivanov <dmn@debian.org>
-Build-Depends: debhelper (>= 6), libssl-dev, quilt
-Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 9.20120312~), libssl-dev
+Standards-Version: 3.9.5
 Homepage: http://perl-openssl.sourceforge.net/
-Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libcrypt-openssl-random-perl/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-perl/trunk/libcrypt-openssl-random-perl/
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libcrypt-openssl-random-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libcrypt-openssl-random-perl.git
 
 Package: libcrypt-openssl-random-perl
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Description: Access to the OpenSSL pseudo-random number generator
- Perl module for accessing the OpenSSL pseudo-random
- number generator
+Description: module to access the OpenSSL pseudo-random number generator
+ Crypt::OpenSSL::Random is a Perl module for accessing the OpenSSL
+ pseudo-random number generator.
